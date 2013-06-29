@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<music xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="music.xsd">
+    <compilation id="album0001" media="cd">
+        <name>A Day Without Rain</name>
+        <artist>Enya</artist>
+        <genre>New Age</genre>
+        <year>2000</year>
+        <format>pcm</format>
+        <tracks>
+            <track>A Day Without Rain</track>
+            <track>Wild Child</track>
+            <track>Only Time</track>
+            <track>Tempus Vernum</track>
+            <track>Deora Ar Mo Chroí</track>
+            <track>Flora's Secret</track>
+            <track>Fallen Embers</track>
+            <track>Silver Inches</track>
+            <track>Pilgrim</track>
+            <track>One By One</track>
+            <track>The First Of Autumn</track>
+            <track>Lazy Days</track>
+        </tracks>
+        <purchased place="Disc Shop">2010-01-25</purchased>
+        <copies>
+            <copy date="2011-01-25" media="hdd">Backup Storage</copy>
+            <copy date="2012-01-25" media="hdd">Backup Storage</copy>
+            <copy date="2013-01-25" media="hdd">Backup Storage</copy>
+            <copy date="2013-05-05" media="other">Sony Walkman Player</copy>
+        </copies>
+    </compilation>
+    <compilation id="album0002" media="cd">
+        <name>A State of Trance 2011</name>
+        <artist>VA</artist>
+        <genre>Trance</genre>
+        <year>2011</year>
+        <format>pcm</format>
+        <tracks>
+            <track artist="Triple A">Winter Stayed (Armin van Buuren's On the Beach Intro Mix)</track>
+            <track artist="The Blizzard &amp; Omnia">My Inner Island</track>
+            <track artist="Mike Shiver vs Matias Lehtola">Slacker</track>
+            <track artist="Dreas vs Alex Robert">Mormugao (Alex Robert 2011 Mix)</track>
+            <track artist="Anhken">Always Look Back</track>
+            <track artist="Nuera">Green Cape Sunset</track>
+            <track artist="Rex Mundi">Sandstone</track>
+            <track artist="Robert Nickson &amp; Thomas Datt">Godless (Protoculture Remix)</track>
+            <track artist="Bobina">Lamento Sentimental</track>
+            <track artist="Mark Otten">Libertine</track>
+            <track artist="Max Graham feat. Neev Kennedy">So Caught Up</track>
+            <track artist="Ashley Wallbridge">Moonlight Sonata</track>
+            <track artist="Beat Service feat. Cathy Burton">When Tomorrow Never Comes</track>
+            <track artist="Arty &amp; Mat Zo">Rebound</track>
+        </tracks>
+        <purchased place="Internet Disc Shop">2011-02-17</purchased>
+        <copies>
+            <copy date="2012-02-17" media="hdd">Backup Storage</copy>
+            <copy date="2013-02-17" media="hdd">Backup Storage</copy>
+        </copies>
+    </compilation>
+    <compilation id="album0003" media="cd">
+        <name>Amarantine</name>
+        <artist>Enya</artist>
+        <genre>New Age</genre>
+        <year>2005</year>
+        <format>pcm</format>
+        <tracks>
+            <track>Less than a pearl</track>
+            <track>Amarantine</track>
+            <track>It's in the rain</track>
+            <track>If I could be where you are</track>
+            <track>The river sings</track>
+            <track>Long long journey</track>
+            <track>Sumiregusa</track>
+            <track>Someone said goodbye</track>
+            <track>A moment lost</track>
+            <track>Drifting</track>
+            <track>Amid the falling snow</track>
+            <track>Water shows the hidden heart</track>
+        </tracks>
+        <purchased place="Auction">2012-03-13</purchased>
+    </compilation>
+    <compilation id="album0004" media="cd">
+        <name>Voyageur</name>
+        <artist>Enigma</artist>
+        <genre>New Age</genre>
+        <year>2003</year>
+        <format>pcm</format>
+        <tracks>
+            <track>From East to West</track>
+            <track>Voyageur</track>
+            <track>Incognito</track>
+            <track>Page of Cups</track>
+            <track>Boum</track>
+            <track>Total Eclipse of the Moon</track>
+            <track>Look of Today</track>
+            <track>In the Shadow, in the Light</track>
+            <track>Weightless</track>
+            <track>The Piano</track>
+            <track>Following the Sun</track>
+        </tracks>
+        <purchased place="Friend">2013-03-19</purchased>
+    </compilation>
+</music>
