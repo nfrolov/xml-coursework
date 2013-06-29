@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="music" type="MusicType" />
+
+    <xs:simpleType name="CompilationIdentifierType">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="album\d+" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="MediaType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="lp" />
+            <xs:enumeration value="cd" />
+            <xs:enumeration value="dvd" />
+            <xs:enumeration value="usb" />
+            <xs:enumeration value="hdd" />
+            <xs:enumeration value="other" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="MusicType">
+        <xs:sequence>
+            <xs:element name="compilation" type="CompilationType" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="CompilationType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" />
+            <xs:element name="artist" type="xs:string" />
+            <xs:element name="genre" type="xs:string" />
+            <xs:element name="year" type="xs:gYear" />
+            <xs:element name="format" type="xs:string" />
+            <xs:element name="tracks" type="TrackListingType" />
+            <xs:element name="purchased" type="PurchasedType" />
+            <xs:element name="copies" type="CopyListingType" minOccurs="0" />
+        </xs:sequence>
+        <xs:attribute name="id" type="CompilationIdentifierType" />
+        <xs:attribute name="media" type="MediaType" />
+    </xs:complexType>
+
+    <xs:complexType name="TrackListingType">
+        <xs:sequence>
+            <xs:element name="track" type="TrackType" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="TrackType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="artist" type="xs:string" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="PurchasedType">
+        <xs:simpleContent>
+            <xs:extension base="xs:date">
+                <xs:attribute name="place" type="xs:string" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="CopyListingType">
+        <xs:sequence>
+            <xs:element name="copy" type="CopyType" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="CopyType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="date" use="required" type="xs:date" />
+                <xs:attribute name="media" use="required" type="MediaType" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+</xs:schema>
