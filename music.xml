@@ -99,4 +99,52 @@
         </tracks>
         <purchased place="Friend">2013-03-19</purchased>
     </compilation>
+    <compilation id="album0005" media="cd">
+        <name>Magic Fields</name>
+        <artist>X-Perience</artist>
+        <genre>Synthie Pop</genre>
+        <year>1996</year>
+        <format>pcm</format>
+        <tracks>
+            <track>Deep Blue Water</track>
+            <track>Magic Fields</track>
+            <track>A Neverending Dream</track>
+            <track>Mirror</track>
+            <track>Beautiful Day</track>
+            <track>Angel Zoom</track>
+            <track>The Moon</track>
+            <track>Circles Of Love (Radio Edit)</track>
+            <track>The Night Moved On</track>
+            <track>The Sun</track>
+            <track>My Life Goes On</track>
+            <track>Circles Of Love (D&amp;s Radio Mix)</track>
+        </tracks>
+        <purchased place="Internet Disc Shop">2005-08-13</purchased>
+        <copies>
+            <copy date="2011-08-13" media="cd">Backup copy</copy>
+        </copies>
+    </compilation>
+    <compilation id="album0006" media="cd">
+        <name>Chillaa</name>
+        <artist>Robin</artist>
+        <genre>Toilet</genre>
+        <year>2012</year>
+        <format>pcm</format>
+        <tracks>
+            <track>Chillaillaan</track>
+            <track artist="Robin feat. Bräd">Puuttuva palanen</track>
+            <track>Luupilla mun korvissa</track>
+            <track>Biologiaa</track>
+            <track>Biisi ystäville</track>
+            <track>Kaunis luonnostaan</track>
+            <track>Paniikkiin</track>
+            <track>Häröilemään</track>
+            <track>Sisko</track>
+            <track>Haluun sun palaavan</track>
+        </tracks>
+        <purchased place="Found near a garbage can">2012-12-31</purchased>
+        <copies>
+            <copy date="2013-01-01" media="other">0 copies over torrent</copy>
+        </copies>
+    </compilation>
 </music>
