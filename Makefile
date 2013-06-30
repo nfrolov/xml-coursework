@@ -4,7 +4,7 @@ DOCUMENTS = $(STYLESHEETS:.xsl=.htm)
 
 all: $(DOCUMENTS)
 
-%.htm: %.xsl
+%.htm: %.xsl $(INPUT)
 	xsltproc -o "$@" "$<" "$(INPUT)"
 
 .PHONY: all
