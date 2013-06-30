@@ -40,7 +40,6 @@
                 <xsl:sort select="../year" data-type="number" order="descending" />
                 <div class="album">
                     <h3><xsl:value-of select="../artist" /> - <xsl:value-of select="../name" /></h3>
-                    <p>Genre: <xsl:value-of select="../genre" /></p>
                     <p>Released: <xsl:value-of select="../year" /></p>
                     <p>Tracks: <xsl:value-of select="count(../tracks/track)" /></p>
                     <h4>Copies</h4>
